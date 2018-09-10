@@ -8,7 +8,7 @@
 FROM alpine:3.2
 
 # File Author / Maintainer
-MAINTAINER Karthik Gaekwad
+MAINTAINER Neeraj Gaurav
 
 # Install Nginx
 RUN apk add --update nginx && rm -rf /var/cache/apk/*
